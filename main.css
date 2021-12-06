@@ -6,7 +6,6 @@
 }
 
 .imagecell, .textcell, .textcell input, .padder {
-  background-color: white;
   transition: background-color 0.1s;
 }
 
@@ -24,7 +23,6 @@ body {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  border-radius: 8.33vw 8.33vw 0 0;
   cursor: pointer;
 }
 
@@ -65,9 +63,7 @@ table, td, input {
 }
 
 @font-face {
-  font-family: "Hind";
-  src: url("font/hind-bold-webfont.woff2") format("woff2"),
-       url("font/hind-bold-webfont.woff") format("woff");
+  font-family: 'Montserrat', sans-serif;
   font-weight: normal;
   font-style: normal;
 }
